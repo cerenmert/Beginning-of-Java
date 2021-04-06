@@ -22,9 +22,8 @@ public class Students {
         System.out.println("Roll Number is: " + rollNumber + " and Name is: " + name);
     }
 
-    // now, I'm creating an object of my class
     public static void main(String[] arg) {
-        Students std = new Students();
+        Students std = new Students(); // now, I'm creating an object of my class
 
         //while I didn't call Students() constructor in my main method, how message is printed?
         //because, when you created object of your class like here "Students std= new Students();", default constructor will automatically called!
