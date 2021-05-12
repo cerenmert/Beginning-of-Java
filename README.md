@@ -5,5 +5,5 @@
 + Create an object of class
 + Constructor overloading
 + Using this keyword inside constructor
-+ Interface
++ Abstraction and Interface
 + Encapsulation
