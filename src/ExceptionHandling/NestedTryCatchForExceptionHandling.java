@@ -9,8 +9,8 @@ public class NestedTryCatchForExceptionHandling {
                 String text2 = "Berfin";
                 System.out.println(text2.length());
                 try {
-                    String text3 = "Anıl";
-                    System.out.println(text3.length());
+                    String text3 = null;
+                    System.out.println(text3.length());  //this gives null pointer exception and it will not move to next Try Block
                     try {
                         int[] array = new int[3];
                         array[5] = 100;  // this gives exception error, because there are only 3 elements of the array
