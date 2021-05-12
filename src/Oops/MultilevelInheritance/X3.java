@@ -1,6 +1,7 @@
 package Oops.MultilevelInheritance;
 
 public class X3 extends BMW {
+
     static String model = "X3";
 
     public static void main(String[] args) {

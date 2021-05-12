@@ -6,6 +6,7 @@ public class BankLoan {
     private int age;
     private int amount;
 
+
     //SET methods
     //if we are just defining the SETTERS, these class will be write-only class
     public void setName(String name){

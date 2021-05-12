@@ -22,6 +22,6 @@ public class EngineeringClass implements Student {
 
     @Override
     public void getInterfaceName() {
-
+        System.out.println("We're from Interface");
     }
 }

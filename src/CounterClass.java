@@ -1,12 +1,15 @@
 public class CounterClass {
 
     //static members of class belongs to the class itself instead of the object of class.
-    //non-static members being accessed on the object of class.
-    //so every time when we create a new object, this objects are basically created in the heap memory.
-    //so static members are memory efficient more than non-static members.
+    //non-static members only being accessed on the object of class.
+    //so every time when we create a new object, this objects are basically created in the Heap memory.
+    //so "static" members are memory efficient more than non-static members.
     //because they will allocate in the memory once!
+    //**
+    //primitive olmayanlar heap'te tutulur,nesneler heap'te tutulur.referance'ları stack'ta tutulur.
 
-    int i = 0;
+
+    int i = 0; // kept in Stack, not Heap
     static int j = 0;
 
     public CounterClass(){
@@ -29,7 +32,6 @@ public class CounterClass {
         CounterClass counter2 = new CounterClass();
         CounterClass counter3 = new CounterClass();
 //        System.out.println(counter1.i);
-//
 //        System.out.println(CounterClass.j);
 
         //https://www.oracle.com/technical-resources/articles/javase/classloaders.html

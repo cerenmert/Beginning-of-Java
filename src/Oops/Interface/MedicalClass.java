@@ -20,12 +20,12 @@ public class MedicalClass implements Student {
 
     public static void main(String[] args) {
         EngineeringClass eng= new EngineeringClass();
-        MedicalClass med= new MedicalClass();
         eng.displayName();
         eng.getStandard();
         eng.getStudentNumber();
         eng.getUniversity();
         System.out.println("**********");
+        MedicalClass med= new MedicalClass();
         med.displayName();
         med.getStandard();
         med.getStudentNumber();
